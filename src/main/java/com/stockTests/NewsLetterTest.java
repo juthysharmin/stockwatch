@@ -23,7 +23,8 @@ public class NewsLetterTest extends TestBase {
 		     executor.executeScript("arguments[0].click();", driver.findElement(By.xpath("//input[@name='submit']")));
 		
 		  }
-		
+		String pageURL = driver.getCurrentUrl();
+		Assert.assertEquals("https://leads.stockmarketwatch.com/thanks/confirm.aspx",pageURL);
 	
 }
     @Test(priority = 1)

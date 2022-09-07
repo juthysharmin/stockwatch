@@ -28,6 +28,9 @@ public class MouseHoverTest extends TestBase {
 
 		String pageURL = driver.getCurrentUrl();
 		Assert.assertEquals("https://thestockmarketwatch.com/markets/world/today.aspx", pageURL);
+		
+		
+		
 	}
 
 }

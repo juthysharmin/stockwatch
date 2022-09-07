@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12618" started-at="2022-09-06T19:11:15 EDT" finished-at="2022-09-06T19:11:28 EDT">
+  <suite name="Default suite" duration-ms="22628" started-at="2022-09-07T12:38:27 EDT" finished-at="2022-09-07T12:38:50 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12618" started-at="2022-09-06T19:11:15 EDT" finished-at="2022-09-06T19:11:28 EDT">
-      <class name="com.stockTests.NewsLetterTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stockTests.NewsLetterTest@64485a47]" name="setUp" is-config="true" duration-ms="7670" started-at="2022-09-06T19:11:15 EDT" finished-at="2022-09-06T19:11:23 EDT">
+    <test name="Default test" duration-ms="22628" started-at="2022-09-07T12:38:27 EDT" finished-at="2022-09-07T12:38:50 EDT">
+      <class name="com.stockTests.StockSectorsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="setUp" is-config="true" duration-ms="5009" started-at="2022-09-07T12:38:27 EDT" finished-at="2022-09-07T12:38:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getIcon()[pri:1, instance:com.stockTests.NewsLetterTest@64485a47]" name="getIcon" duration-ms="1100" started-at="2022-09-06T19:11:23 EDT" finished-at="2022-09-06T19:11:24 EDT">
+        <test-method status="PASS" signature="conDiscret()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="conDiscret" duration-ms="15078" started-at="2022-09-07T12:38:32 EDT" finished-at="2022-09-07T12:38:47 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getIcon -->
-        <test-method status="PASS" signature="getnewsLetter()[pri:1, instance:com.stockTests.NewsLetterTest@64485a47]" name="getnewsLetter" duration-ms="3587" started-at="2022-09-06T19:11:24 EDT" finished-at="2022-09-06T19:11:27 EDT">
+        </test-method> <!-- conDiscret -->
+        <test-method status="PASS" signature="sectorsText()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="sectorsText" duration-ms="37" started-at="2022-09-07T12:38:47 EDT" finished-at="2022-09-07T12:38:47 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getnewsLetter -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stockTests.NewsLetterTest@64485a47]" name="tearDown" is-config="true" duration-ms="232" started-at="2022-09-06T19:11:27 EDT" finished-at="2022-09-06T19:11:28 EDT">
+        </test-method> <!-- sectorsText -->
+        <test-method status="PASS" signature="stockSectorsCountOfLinks()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="stockSectorsCountOfLinks" duration-ms="2256" started-at="2022-09-07T12:38:47 EDT" finished-at="2022-09-07T12:38:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stockSectorsCountOfLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="tearDown" is-config="true" duration-ms="221" started-at="2022-09-07T12:38:49 EDT" finished-at="2022-09-07T12:38:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.stockTests.NewsLetterTest -->
+      </class> <!-- com.stockTests.StockSectorsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

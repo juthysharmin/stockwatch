@@ -18,8 +18,6 @@ public class StockSectorsPage {
 		driver.get("https://thestockmarketwatch.com/markets/today.aspx");
 		driver.manage().window().maximize();
 
-		// Give me the count of links on stockSectors page
-
 		WebElement stockSectors = driver.findElement(By.id("row2"));
 		System.out.println(stockSectors.findElements(By.tagName("h2")).size());
 		

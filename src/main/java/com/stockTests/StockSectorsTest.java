@@ -40,9 +40,11 @@ public class StockSectorsTest extends TestBase {
 			System.out.println("Name is not Present");
 
 		}
-		
+		Assert.assertEquals("sectors", "sectors");
 		
 		}
+    
+    
    @Test
     public void conDiscret () {
 		driver.findElement(By.linkText("Con. Discret"));
