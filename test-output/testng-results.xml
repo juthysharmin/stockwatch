@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24797" started-at="2022-09-07T17:53:21 EDT" finished-at="2022-09-07T17:53:46 EDT">
+  <suite name="Default suite" duration-ms="21157" started-at="2022-09-08T12:37:51 EDT" finished-at="2022-09-08T12:38:12 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24797" started-at="2022-09-07T17:53:21 EDT" finished-at="2022-09-07T17:53:46 EDT">
-      <class name="com.stockTests.UserRegistrationTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stockTests.UserRegistrationTest@64485a47]" name="setUp" is-config="true" duration-ms="7936" started-at="2022-09-07T17:53:21 EDT" finished-at="2022-09-07T17:53:29 EDT">
+    <test name="Default test" duration-ms="21157" started-at="2022-09-08T12:37:51 EDT" finished-at="2022-09-08T12:38:12 EDT">
+      <class name="com.stockTests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stockTests.LoginTest@64485a47]" name="setUp" is-config="true" duration-ms="11557" started-at="2022-09-08T12:37:51 EDT" finished-at="2022-09-08T12:38:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationNegativeTest()[pri:0, instance:com.stockTests.UserRegistrationTest@64485a47]" name="registrationNegativeTest" duration-ms="16563" started-at="2022-09-07T17:53:29 EDT" finished-at="2022-09-07T17:53:46 EDT">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.stockTests.LoginTest@64485a47]" name="loginTest" duration-ms="2024" started-at="2022-09-08T12:38:03 EDT" finished-at="2022-09-08T12:38:05 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationNegativeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stockTests.UserRegistrationTest@64485a47]" name="tearDown" is-config="true" duration-ms="255" started-at="2022-09-07T17:53:46 EDT" finished-at="2022-09-07T17:53:46 EDT">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.stockTests.LoginTest@64485a47]" name="logoutTest" duration-ms="1460" started-at="2022-09-08T12:38:05 EDT" finished-at="2022-09-08T12:38:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="negativeloginTest()[pri:0, instance:com.stockTests.LoginTest@64485a47]" name="negativeloginTest" duration-ms="5855" started-at="2022-09-08T12:38:06 EDT" finished-at="2022-09-08T12:38:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeloginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stockTests.LoginTest@64485a47]" name="tearDown" is-config="true" duration-ms="201" started-at="2022-09-08T12:38:12 EDT" finished-at="2022-09-08T12:38:12 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.stockTests.UserRegistrationTest -->
+      </class> <!-- com.stockTests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

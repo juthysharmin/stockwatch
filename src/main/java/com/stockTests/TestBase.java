@@ -16,6 +16,7 @@ public class TestBase {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.get("https://thestockmarketwatch.com/markets/today.aspx#google_vignette");
+		driver.manage().window().maximize();
 	}
 
 	@AfterTest

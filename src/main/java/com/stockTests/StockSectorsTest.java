@@ -13,8 +13,6 @@ public class StockSectorsTest extends TestBase {
 	public void stockSectorsCountOfLinks() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(15));
 		driver.get("https://thestockmarketwatch.com/markets/today.aspx");
-		driver.manage().window().maximize();
-
 		WebElement stockSectors = driver.findElement(By.id("row2"));
 		System.out.println(stockSectors.findElements(By.tagName("h2")).size());
 

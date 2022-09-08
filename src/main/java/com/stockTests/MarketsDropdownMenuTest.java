@@ -6,10 +6,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MouseHoverTest extends TestBase {
+import Pages.MarketsDropdownMenuPage;
+
+public class MarketsDropdownMenuTest extends TestBase {
     @Test
 	public void getMarkets() {
-
+    
 		Actions action = new Actions(driver);
 		WebElement ele = driver.findElement(By.linkText("Markets"));
 		action.moveToElement(ele).build().perform();

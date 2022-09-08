@@ -17,16 +17,16 @@ public class NewsLetterTest extends TestBase {
 		driver.findElement(By.xpath("//h2[normalize-space()='Join Today']"));
 		driver.findElement(By.id("email")).sendKeys(email);
 		try {
-		     driver.findElement(By.linkText("Scans")).click();
-		  } catch (Exception e) {
-		     JavascriptExecutor executor = (JavascriptExecutor) driver;
-		     executor.executeScript("arguments[0].click();", driver.findElement(By.xpath("//input[@name='submit']")));
-		
-		  }
+			driver.findElement(By.linkText("Scans")).click();
+		} catch (Exception e) {
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();", driver.findElement(By.xpath("//input[@name='submit']")));
+
+		}
 		String pageURL = driver.getCurrentUrl();
-		Assert.assertEquals("https://leads.stockmarketwatch.com/thanks/confirm.aspx",pageURL);
-	
-}
+		Assert.assertEquals("https://leads.stockmarketwatch.com/thanks/confirm.aspx", pageURL);
+
+	}
     @Test(priority = 1)
 	public void getIcon() {
 		driver.get("https://leads.stockmarketwatch.com/thanks/confirm.aspx");

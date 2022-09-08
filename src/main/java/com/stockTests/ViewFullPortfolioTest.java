@@ -13,7 +13,6 @@ public class ViewFullPortfolioTest extends TestBase {
 	public void loginTest() {
 		LoginPage loginPage = new LoginPage(driver);
 		driver.get("https://thestockmarketwatch.com/members/login.aspx?pg=%2fmembers%2fmy-watchlist.aspx");
-		driver.manage().window().maximize();
 		loginPage.login("talentechcy", "CyTech2022");
         String pageURL = driver.getCurrentUrl();
 		Assert.assertEquals("https://thestockmarketwatch.com/members/my-watchlist.aspx", pageURL);

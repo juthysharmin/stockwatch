@@ -13,10 +13,8 @@ public class LoginTest extends TestBase {
 	public void loginTest() {
 		LoginPage loginPage = new LoginPage(driver);
 		driver.get("https://thestockmarketwatch.com/members/login.aspx?pg=%2fmembers%2fmy-watchlist.aspx");
-		driver.manage().window().maximize();
-		loginPage.login("talentechcy", "CyTech2022");
-
-		String pageURL = driver.getCurrentUrl();
+	    loginPage.login("talentechcy", "CyTech2022");
+        String pageURL = driver.getCurrentUrl();
 		Assert.assertEquals("https://thestockmarketwatch.com/members/my-watchlist.aspx", pageURL);
 	}
 
@@ -24,7 +22,6 @@ public class LoginTest extends TestBase {
 	public void logoutTest() {
 		driver.get("https://thestockmarketwatch.com/members/my-watchlist.aspx");
 		driver.findElement(By.xpath("(//a[contains(text(),'Logout')])[2]")).click();
-
 		String pageURL = driver.getCurrentUrl();
 		Assert.assertEquals("https://thestockmarketwatch.com/members/login.aspx?msg=You+have+been+logged+out.",
 				pageURL);
