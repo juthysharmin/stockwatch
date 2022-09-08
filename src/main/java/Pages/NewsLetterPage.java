@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class NewsLetterPage {
 	WebDriver driver;
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://thestockmarketwatch.com/markets/today.aspx");
@@ -29,20 +29,11 @@ public class NewsLetterPage {
 		     JavascriptExecutor executor = (JavascriptExecutor) driver;
 		     executor.executeScript("arguments[0].click();", driver.findElement(By.xpath("//input[@name='submit']")));
 		
-		     
-		     
-		     
-		     
-		Thread.sleep(5000);
 		WebElement errorMsg = driver.findElement(By.id("icon"));
-		Assert.assertEquals(errorMsg.isDisplayed(), true);
+	    driver.findElement(By.id("primary-button")).click();
 
-		driver.findElement(By.id("primary-button")).click();
-
-		String pageURL = driver.getCurrentUrl();
-		Assert.assertEquals("https://thestockmarketwatch.com/markets/today.aspx", pageURL);
-
-		driver.quit();
+		
+		
 
 	}
 

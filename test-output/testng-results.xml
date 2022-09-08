@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22628" started-at="2022-09-07T12:38:27 EDT" finished-at="2022-09-07T12:38:50 EDT">
+  <suite name="Default suite" duration-ms="24797" started-at="2022-09-07T17:53:21 EDT" finished-at="2022-09-07T17:53:46 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22628" started-at="2022-09-07T12:38:27 EDT" finished-at="2022-09-07T12:38:50 EDT">
-      <class name="com.stockTests.StockSectorsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="setUp" is-config="true" duration-ms="5009" started-at="2022-09-07T12:38:27 EDT" finished-at="2022-09-07T12:38:32 EDT">
+    <test name="Default test" duration-ms="24797" started-at="2022-09-07T17:53:21 EDT" finished-at="2022-09-07T17:53:46 EDT">
+      <class name="com.stockTests.UserRegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stockTests.UserRegistrationTest@64485a47]" name="setUp" is-config="true" duration-ms="7936" started-at="2022-09-07T17:53:21 EDT" finished-at="2022-09-07T17:53:29 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="conDiscret()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="conDiscret" duration-ms="15078" started-at="2022-09-07T12:38:32 EDT" finished-at="2022-09-07T12:38:47 EDT">
+        <test-method status="PASS" signature="registrationNegativeTest()[pri:0, instance:com.stockTests.UserRegistrationTest@64485a47]" name="registrationNegativeTest" duration-ms="16563" started-at="2022-09-07T17:53:29 EDT" finished-at="2022-09-07T17:53:46 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- conDiscret -->
-        <test-method status="PASS" signature="sectorsText()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="sectorsText" duration-ms="37" started-at="2022-09-07T12:38:47 EDT" finished-at="2022-09-07T12:38:47 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sectorsText -->
-        <test-method status="PASS" signature="stockSectorsCountOfLinks()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="stockSectorsCountOfLinks" duration-ms="2256" started-at="2022-09-07T12:38:47 EDT" finished-at="2022-09-07T12:38:49 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stockSectorsCountOfLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stockTests.StockSectorsTest@64485a47]" name="tearDown" is-config="true" duration-ms="221" started-at="2022-09-07T12:38:49 EDT" finished-at="2022-09-07T12:38:50 EDT">
+        </test-method> <!-- registrationNegativeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stockTests.UserRegistrationTest@64485a47]" name="tearDown" is-config="true" duration-ms="255" started-at="2022-09-07T17:53:46 EDT" finished-at="2022-09-07T17:53:46 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.stockTests.StockSectorsTest -->
+      </class> <!-- com.stockTests.UserRegistrationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,8 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MouseHoverTest extends TestBase {
-
-	@Test
+    @Test
 	public void getMarkets() {
 
 		Actions action = new Actions(driver);
@@ -18,8 +17,7 @@ public class MouseHoverTest extends TestBase {
 		Assert.assertFalse(driver.findElement(By.linkText("Markets")).isSelected());
 		System.out.println((driver.findElement(By.linkText("Markets")).isSelected()));
 	}
-
-	@Test
+    @Test
 	public void getworldMarkets() {
 		Actions action = new Actions(driver);
 		WebElement ele2 = driver.findElement(By.linkText("World Markets"));

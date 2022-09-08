@@ -21,9 +21,7 @@ public class StockSectorsPage {
 		WebElement stockSectors = driver.findElement(By.id("row2"));
 		System.out.println(stockSectors.findElements(By.tagName("h2")).size());
 		
-		Assert.assertNotNull(stockSectors);
-
-		driver.findElement(By.id("sectors"));
+        driver.findElement(By.id("sectors"));
 		System.out.println(driver.findElement(By.id("sectors")));
 
 		if (driver.getPageSource().contains("sectors"))
@@ -45,10 +43,9 @@ public class StockSectorsPage {
 		driver.findElement(By.linkText("Con. Discret"));
 		driver.findElements(By.id("Con. Discret")).isEmpty();
 		
-		Assert.assertEquals(true, true);
 		
-		driver.quit();
-
+		
+		
 	}
 
 }

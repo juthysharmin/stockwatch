@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import Pages.LoginPage;
 
 public class ViewFullPortfolioTest extends TestBase {
+	
 	@Test(priority = 1)
 	public void loginTest() {
 		LoginPage loginPage = new LoginPage(driver);
@@ -18,8 +19,9 @@ public class ViewFullPortfolioTest extends TestBase {
 		Assert.assertEquals("https://thestockmarketwatch.com/members/my-watchlist.aspx", pageURL);
 	}
 	@Test(priority = 2)
-	public void myEmailsTest ()	{
+	public void myEmailsTest () throws InterruptedException	{
 		driver.findElement(By.linkText("My Emails")).click();
+		Thread.sleep(5000);
 		driver.findElement(By.id("ContentPlaceHolder1_radUpdateType_0")).click();
 		driver.findElement(By.id("ContentPlaceHolder1_btnSave")).click();
 		driver.findElement(By.id("ContentPlaceHolder1_divUpdated"));
