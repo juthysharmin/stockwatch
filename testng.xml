@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.stockTests.ForexTest"/>
+      <class name="com.stockTests.TestBase"/>
+      <class name="stockwatch.com.App"/>
+      <class name="stockwatch.com.AppTest"/>
+      <class name="com.stockTests.UserRegistrationTest"/>
+      <class name="Pages.LoginPage"/>
+      <class name="com.stockTests.MetalsTest"/>
+      <class name="com.stockTests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
