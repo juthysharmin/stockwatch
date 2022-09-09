@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.stockTests.StockSectorsTest">
+      <class name="com.stockTests.SearchStockTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="sectorsText"/>
+          <include name="companySymbolLookup"/>
+          <include name="openingBrowser"/>
+          <include name="closingBrowser"/>
+          <include name="oneYearGraph"/>
         </methods>
-      </class> <!-- com.stockTests.StockSectorsTest -->
+      </class> <!-- com.stockTests.SearchStockTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
