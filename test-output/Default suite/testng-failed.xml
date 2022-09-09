@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< Updated upstream
       <class name="com.stockTests.SearchStockTest">
         <methods>
           <include name="companySymbolLookup"/>
@@ -11,6 +12,15 @@
           <include name="oneYearGraph"/>
         </methods>
       </class> <!-- com.stockTests.SearchStockTest -->
+=======
+      <class name="com.stockTests.ForexTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="majorPairColorCheck_8"/>
+        </methods>
+      </class> <!-- com.stockTests.ForexTest -->
+>>>>>>> Stashed changes
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
