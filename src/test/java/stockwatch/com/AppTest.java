@@ -1,5 +1,13 @@
 package stockwatch.com;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,6 +22,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        Assert.assertTrue(true);
+        AssertJUnit.assertTrue(true);
     }
 }

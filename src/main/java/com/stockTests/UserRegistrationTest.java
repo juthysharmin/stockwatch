@@ -12,7 +12,7 @@ public class UserRegistrationTest extends TestBase {
 		
 		driver.findElement(By.xpath("//a[normalize-space()='Click Here, to Register']")).click();
 		
-		//driver.findElement(By.xpath("//a[contains(text(),'Click Here, to Register')]")).click();
+		
 		Thread.sleep(5000);
 		driver.findElement(By.id("ContentPlaceHolder1_txtUsername")).sendKeys("talentechcy");
 		driver.findElement(By.id("ContentPlaceHolder1_txtEmail")).sendKeys("talentechcy@gmail.com");

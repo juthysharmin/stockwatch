@@ -10,13 +10,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.time.Duration;
-
 import org.apache.poi.xssf.usermodel.*;
 import Pages.LoginPage;
 
@@ -53,3 +51,5 @@ public class LoginTest extends TestBase {
 	}
 
 }
+}
+
