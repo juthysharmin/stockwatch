@@ -11,8 +11,8 @@ import Pages.MarketsDropdownMenuPage;
 public class MarketsDropdownMenuTest extends TestBase {
     @Test
 	public void getMarkets() {
-    	MarketsDropdownMenuPage DROPDOWNMENU = new MarketsDropdownMenuPage(driver);
-    	DROPDOWNMENU.marketsDropdownMenu();
+    	MarketsDropdownMenuPage dropDownMenu = new MarketsDropdownMenuPage(driver);
+    	dropDownMenu.marketsDropdownMenu();
     	
 		Assert.assertFalse(driver.findElement(By.linkText("Markets")).isSelected());
 		System.out.println((driver.findElement(By.linkText("Markets")).isSelected()));
@@ -23,8 +23,8 @@ public class MarketsDropdownMenuTest extends TestBase {
 	}
     @Test
 	public void getWorldMarkets() {
-    	MarketsDropdownMenuPage DROPDOWNMENU = new MarketsDropdownMenuPage(driver);
-    	DROPDOWNMENU.marketsDropdownMenu();
+    	MarketsDropdownMenuPage dropDownMenu = new MarketsDropdownMenuPage(driver);
+    	dropDownMenu.marketsDropdownMenu();
 		
         String pageURL = driver.getCurrentUrl();
 		Assert.assertEquals("https://thestockmarketwatch.com/markets/world/today.aspx", pageURL);
