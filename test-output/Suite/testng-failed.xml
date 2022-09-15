@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.stockTests.MetalsTest">
+        <methods>
+          <include name="metalsPage_005"/>
+          <include name="metalsPage_006"/>
+          <include name="crossRatesChart_7"/>
+          <include name="majorPairColorCheck_8"/>
+          <include name="tearDown"/>
+          <include name="metalsPage_004"/>
+          <include name="setUp"/>
+          <include name="forexTestUSDBDT_9"/>
+          <include name="metalsPage_001"/>
+          <include name="metalsPage_002"/>
+          <include name="metalsPage_003"/>
+          <include name="USDBDTInterval_10"/>
+        </methods>
+      </class> <!-- com.stockTests.MetalsTest -->
+      <class name="Pages.LoginPage">
+        <methods>
+          <include name="toDayChange"/>
+        </methods>
+      </class> <!-- Pages.LoginPage -->
+=======
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
@@ -12,6 +38,7 @@
           <include name="negativeloginTest"/>
         </methods>
       </class> <!-- com.stockTests.LoginTest -->
+>>>>>>> main
       <class name="com.stockTests.UserRegistrationTest">
         <methods>
           <include name="tearDown"/>
@@ -19,6 +46,8 @@
           <include name="registrationNegativeTest"/>
         </methods>
       </class> <!-- com.stockTests.UserRegistrationTest -->
+<<<<<<< HEAD
+=======
       <class name="com.stockTests.NewsLetterTest">
         <methods>
           <include name="getnewsLetter"/>
@@ -45,6 +74,7 @@
           <include name="sectorsText"/>
         </methods>
       </class> <!-- com.stockTests.StockSectorsTest -->
+>>>>>>> main
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

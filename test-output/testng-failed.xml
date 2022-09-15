@@ -3,6 +3,9 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="com.stockTests.MetalsTest">
+=======
 <<<<<<< Updated upstream
       <class name="com.stockTests.SearchStockTest">
         <methods>
@@ -14,13 +17,29 @@
       </class> <!-- com.stockTests.SearchStockTest -->
 =======
       <class name="com.stockTests.ForexTest">
+>>>>>>> main
         <methods>
+          <include name="metalsPage_005"/>
+          <include name="metalsPage_006"/>
+          <include name="crossRatesChart_7"/>
+          <include name="majorPairColorCheck_8"/>
           <include name="tearDown"/>
+          <include name="metalsPage_004"/>
           <include name="setUp"/>
+<<<<<<< HEAD
+          <include name="forexTestUSDBDT_9"/>
+          <include name="metalsPage_001"/>
+          <include name="metalsPage_002"/>
+          <include name="metalsPage_003"/>
+          <include name="USDBDTInterval_10"/>
+        </methods>
+      </class> <!-- com.stockTests.MetalsTest -->
+=======
           <include name="majorPairColorCheck_8"/>
         </methods>
       </class> <!-- com.stockTests.ForexTest -->
 >>>>>>> Stashed changes
+>>>>>>> main
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

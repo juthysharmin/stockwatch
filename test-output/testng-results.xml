@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T21:33:41 EDT" name="Default suite" finished-at="2022-09-08T21:34:17 EDT" duration-ms="36759">
+    <groups>
+    </groups>
+    <test started-at="2022-09-08T21:33:41 EDT" name="Default test" finished-at="2022-09-08T21:34:17 EDT" duration-ms="36759">
+      <class name="com.stockTests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.stockTests.LoginTest@3e58a80e]" started-at="2022-09-08T21:33:41 EDT" name="setUp" finished-at="2022-09-08T21:34:01 EDT" duration-ms="20530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.stockTests.LoginTest@3e58a80e]" started-at="2022-09-08T21:34:01 EDT" name="loginTest" finished-at="2022-09-08T21:34:04 EDT" duration-ms="2461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.stockTests.LoginTest@3e58a80e]" started-at="2022-09-08T21:34:04 EDT" name="logoutTest" finished-at="2022-09-08T21:34:06 EDT" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="negativeloginTest()[pri:0, instance:com.stockTests.LoginTest@3e58a80e]" started-at="2022-09-08T21:34:06 EDT" name="negativeloginTest" finished-at="2022-09-08T21:34:12 EDT" duration-ms="6385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.stockTests.LoginTest@3e58a80e]" started-at="2022-09-08T21:34:12 EDT" name="tearDown" finished-at="2022-09-08T21:34:17 EDT" duration-ms="5319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stockTests.LoginTest -->
+=======
 <<<<<<< Updated upstream
 <testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
   <reporter-output>
@@ -252,6 +283,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- tearDown -->
       </class> <!-- com.stockTests.ForexTest -->
 >>>>>>> Stashed changes
+>>>>>>> main
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
