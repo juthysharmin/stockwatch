@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-<<<<<<< HEAD
+
       <class name="com.stockTests.ForexTest"/>
       <class name="com.stockTests.TestBase"/>
       <class name="stockwatch.com.App"/>
@@ -12,7 +12,7 @@
       <class name="Pages.LoginPage"/>
       <class name="com.stockTests.MetalsTest"/>
       <class name="com.stockTests.LoginTest"/>
-=======
+
       <class name="com.stockTests.NewsLetterTest"/>
       <class name="com.stockTests.MarketsDropdownMenuTest"/>
       <class name="com.stockTests.StockSectorsTest"/>
@@ -23,7 +23,6 @@
       <class name=".NewTest"/>
       <class name="com.stockTests.LoginTest"/>
       <class name="com.stockTests.SearchStockTest"/>
->>>>>>> main
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
